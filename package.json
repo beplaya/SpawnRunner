@@ -1,0 +1,25 @@
+{
+  "name": "spawn_runner",
+  "version": "1.0.0",
+  "description": "Spawns child processes with ease.",
+  "main": "runner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beplaya/SpawnRunner.git"
+  },
+  "keywords": [
+    "spawn",
+    "exec",
+    "child",
+    "process"
+  ],
+  "author": "beplaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beplaya/SpawnRunner/issues"
+  },
+  "homepage": "https://github.com/beplaya/SpawnRunner#readme"
+}

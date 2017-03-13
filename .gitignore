@@ -1,0 +1,17 @@
+node_modules/
+*.swp
+bower_components/
+.DS_Store
+cmdresponse/
+lib/cmds/
+.idea/
+.nitconfig
+open
+stats/commit_frequency_chart.js
+/web/project_cache/
+npm-debug.log
+team/cache/*.json
+team/cache/*/*.json
+
+
+debug
