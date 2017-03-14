@@ -1,6 +1,6 @@
 {
   "name": "spawn_runner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Spawns child processes with ease.",
   "main": "spawn_runner.js",
   "scripts": {

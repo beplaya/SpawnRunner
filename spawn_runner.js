@@ -19,9 +19,10 @@ module.exports = function SpawnRunner(debug) {
             }
         }
         var spawn = this.child_process.spawn;
-        spawn(cmd, cmdArgs, {stdio : 'inherit'});
-
-        cb && cb();
+        var ls = spawn(cmd, cmdArgs, {stdio : 'inherit'});
+        ls.on('close', function (code) {
+            cb && cb();
+        });
     };
 
     this.run = function(cmd, cmdArgs, cb) {
