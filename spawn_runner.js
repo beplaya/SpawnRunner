@@ -39,7 +39,7 @@ module.exports = function SpawnRunner(debug) {
         ls.stdout.on('data', function (data) {
             out += "\n" + (data ? data.toString() : "");
         });
-        ls.stderr.on('data', function (data) {
+        ls.stderr.on('error', function (data) {
             error = true;
             out += "\n" + (data ? data.toString() : "");
         });
