@@ -46,7 +46,7 @@ module.exports = function SpawnRunner(debug) {
         });
 
         ls.on('close', function (code) {
-            cb && cb(out, error && code==0, code);
+            cb && cb(out, error || code!=0, code);
         });
         return {process: ls, spawn:spawn};
     };
